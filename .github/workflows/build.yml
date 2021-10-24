@@ -25,7 +25,3 @@ jobs:
          ## checks out our code locally so we can work with the files
          - name: Checkout code
            uses: actions/checkout@v2
-
-         ## runs go test ./...
-         - name: Test
-           run: go test ./...
